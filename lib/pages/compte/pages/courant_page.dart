@@ -83,22 +83,25 @@ class _CourantPageState extends State<CourantPage> {
                 20.verticaleSpace,
                 SoldeWidget(),
                 20.verticaleSpace,
-                GridView.builder(
-                  physics: NeverScrollableScrollPhysics(),
-                  shrinkWrap: true,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 4, // 3 colonnes
-                    crossAxisSpacing: 5,
-                    mainAxisSpacing: 10,
+                SizedBox(
+                  height: 160,
+                  child: GridView.builder(
+                    physics: NeverScrollableScrollPhysics(),
+                    gridDelegate:
+                        const SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 4, // 3 colonnes
+                      crossAxisSpacing: 5,
+                      mainAxisSpacing: 10,
+                    ),
+                    itemCount: actionTitles.length,
+                    itemBuilder: (context, index) {
+                      return ActionWidget(
+                        showBadge: index == 0,
+                        actionIcon: actionIcon[index],
+                        actionTitles: actionTitles[index],
+                      );
+                    },
                   ),
-                  itemCount: actionTitles.length,
-                  itemBuilder: (context, index) {
-                    return ActionWidget(
-                      showBadge: index == 0,
-                      actionIcon: actionIcon[index],
-                      actionTitles: actionTitles[index],
-                    );
-                  },
                 ),
                 15.verticaleSpace,
                 PlafondWidget(),

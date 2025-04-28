@@ -163,6 +163,9 @@ class $AssetsSvgsGen {
   /// File path: assets/svgs/gift.svg
   SvgGenImage get gift => const SvgGenImage('assets/svgs/gift.svg');
 
+  /// File path: assets/svgs/globe_1.svg
+  SvgGenImage get globe1 => const SvgGenImage('assets/svgs/globe_1.svg');
+
   /// File path: assets/svgs/iban_drawer.svg
   SvgGenImage get ibanDrawer => const SvgGenImage('assets/svgs/iban_drawer.svg');
 
@@ -196,11 +199,42 @@ class $AssetsSvgsGen {
   /// File path: assets/svgs/oder_card_ic_2.svg
   SvgGenImage get oderCardIc2 => const SvgGenImage('assets/svgs/oder_card_ic_2.svg');
 
+  /// File path: assets/svgs/orange_star.svg
+  SvgGenImage get orangeStar => const SvgGenImage('assets/svgs/orange_star.svg');
+
   /// File path: assets/svgs/point_drawer.svg
   SvgGenImage get pointDrawer => const SvgGenImage('assets/svgs/point_drawer.svg');
 
+  /// File path: assets/svgs/purple_planet_with_ring.svg
+  SvgGenImage get purplePlanetWithRing =>
+      const SvgGenImage('assets/svgs/purple_planet_with_ring.svg');
+
+  /// File path: assets/svgs/recap_bg_1.svg
+  SvgGenImage get recapBg1 => const SvgGenImage('assets/svgs/recap_bg_1.svg');
+
+  /// File path: assets/svgs/red_moon.svg
+  SvgGenImage get redMoon => const SvgGenImage('assets/svgs/red_moon.svg');
+
+  /// File path: assets/svgs/rocket.svg
+  SvgGenImage get rocket => const SvgGenImage('assets/svgs/rocket.svg');
+
+  /// File path: assets/svgs/rocket_smoke.svg
+  SvgGenImage get rocketSmoke => const SvgGenImage('assets/svgs/rocket_smoke.svg');
+
   /// File path: assets/svgs/scan.svg
   SvgGenImage get scan => const SvgGenImage('assets/svgs/scan.svg');
+
+  /// File path: assets/svgs/small_yellow_noon.svg
+  SvgGenImage get smallYellowNoon => const SvgGenImage('assets/svgs/small_yellow_noon.svg');
+
+  /// File path: assets/svgs/star_bg_tf_br.svg
+  SvgGenImage get starBgTfBr => const SvgGenImage('assets/svgs/star_bg_tf_br.svg');
+
+  /// File path: assets/svgs/star_bg_tr_bf.svg
+  SvgGenImage get starBgTrBf => const SvgGenImage('assets/svgs/star_bg_tr_bf.svg');
+
+  /// File path: assets/svgs/star_bg_vertical.svg
+  SvgGenImage get starBgVertical => const SvgGenImage('assets/svgs/star_bg_vertical.svg');
 
   /// File path: assets/svgs/transfer_icon.svg
   SvgGenImage get transferIcon => const SvgGenImage('assets/svgs/transfer_icon.svg');
@@ -213,6 +247,13 @@ class $AssetsSvgsGen {
 
   /// File path: assets/svgs/wallet-linear.svg
   SvgGenImage get walletLinear => const SvgGenImage('assets/svgs/wallet-linear.svg');
+
+  /// File path: assets/svgs/yellow_planet_with_ring.svg
+  SvgGenImage get yellowPlanetWithRing =>
+      const SvgGenImage('assets/svgs/yellow_planet_with_ring.svg');
+
+  /// File path: assets/svgs/yellow_star.svg
+  SvgGenImage get yellowStar => const SvgGenImage('assets/svgs/yellow_star.svg');
 
   /// List of all assets
   List<SvgGenImage> get values => [
@@ -235,6 +276,7 @@ class $AssetsSvgsGen {
         factureIcon,
         flash,
         gift,
+        globe1,
         ibanDrawer,
         ibanIcon,
         iconStatsBold,
@@ -246,12 +288,24 @@ class $AssetsSvgsGen {
         notificationBing,
         oderCardIc1,
         oderCardIc2,
+        orangeStar,
         pointDrawer,
+        purplePlanetWithRing,
+        recapBg1,
+        redMoon,
+        rocket,
+        rocketSmoke,
         scan,
+        smallYellowNoon,
+        starBgTfBr,
+        starBgTrBf,
+        starBgVertical,
         transferIcon,
         visa,
         walletBold,
-        walletLinear
+        walletLinear,
+        yellowPlanetWithRing,
+        yellowStar
       ];
 }
 

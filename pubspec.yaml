@@ -39,6 +39,7 @@ dependencies:
   intl: ^0.20.2
   carousel_slider: ^5.0.0
   lottie: ^3.3.1
+  flutter_animate: ^4.5.2
 
 dev_dependencies:
   build_runner:
