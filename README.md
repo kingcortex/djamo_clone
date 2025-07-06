@@ -1,17 +1,39 @@
-# djamo_clone
+# 💳 Flutter UI Clone – Djamo App Screens
 
-A new Flutter project.
+Hi there 👋🏾
 
-## Getting Started
+This project is a **Flutter UI clone** of several screens from the Djamo mobile application.  
+The goal was to reproduce the visual identity and layout with precision, using only Flutter widgets — no external UI libraries.
 
-This project is a starting point for a Flutter application.
+> 🙏 Special thanks to designer **Papa Mandaw DIOP** for the beautiful icons and illustrations that helped bring this clone to life.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🎥 Demo 1 – Home
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# djamo_clone
+![Demo 1](assets/pngs/demo1.gif)
+
+## 🎥 Demo 2 – ...
+
+![Demo 2](assets/pngs/demo2.gif)
+
+## 🎥 Demo 3 – Recap
+
+![Demo 3](assets/pngs/demo3.gif)
+
+---
+
+## 🚀 Highlights
+
+- ✨ High-fidelity UI replication in Flutter  
+- 🎨 Custom theming and consistent design system  
+
+---
+
+## 🧱 Tech Stack
+
+- Flutter 
+- Dart
+- Custom widgets only (`Container`, `Stack`, `Positioned`, `Text`, `GestureDetector`, etc.)
+
+
